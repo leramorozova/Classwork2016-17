@@ -1,0 +1,28 @@
+#num=input()
+#while num:
+#    num=float(num)
+#    print (num)
+#    num=input()
+
+#city=input()
+#for letter in city:
+#    if letter not in 'aeuio':
+#        print (letter)
+
+n=int(input())
+s=0
+for i in range (n+1):
+    s+=i
+    if s>10:
+        break #выход из цикла здесь
+print (i)
+
+sent=input()
+if sent: #если вводится не пустая строка
+    print (0, end=' ')
+for index, sym in enumerate (sent):
+    if sym==' ' and index!=len(sent)+1:
+        print (index)
+        
+        
+    
