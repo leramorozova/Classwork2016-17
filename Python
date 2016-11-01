@@ -1,13 +1,13 @@
-#num=input()
-#while num:
-#    num=float(num)
-#    print (num)
-#    num=input()
+num=input()
+while num:
+    num=float(num)
+    print (num)
+    num=input()
 
-#city=input()
-#for letter in city:
-#    if letter not in 'aeuio':
-#        print (letter)
+city=input()
+for letter in city:
+    if letter not in 'aeuio':
+        print (letter)
 
 n=int(input())
 s=0
